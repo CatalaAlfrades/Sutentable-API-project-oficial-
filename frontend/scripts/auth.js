@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/auth"; // Ajuste se necessário
+const API_URL = "https://sutentable-api-project-oficial.onrender.com";
 
 document.addEventListener("DOMContentLoaded", function () {
     const registerForm = document.getElementById("registerForm");
