@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/actions";
+const API_URL = "https://sutentable-api-project-oficial.onrender.com";
 
 document.addEventListener("DOMContentLoaded", function () {
     const actionForm = document.getElementById("actionForm");
