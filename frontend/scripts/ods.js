@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 actionItem.innerHTML = `
                     <strong>${action.title}</strong> - ${action.category} - ${action.points} pontos
                     <p>${action.description}</p>
-                    <button onclick="deleteAction('${action._id}')">Deletar</button>
+                    <button syle{background-colo: red;} onclick="deleteAction('${action._id}')">Deletar</button>
                 `;
                 actionsList.appendChild(actionItem);
             });
